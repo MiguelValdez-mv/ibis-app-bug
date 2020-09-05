@@ -1,0 +1,26 @@
+import { Meta, Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import { Input } from "./";
+
+<Meta title="Components/Atoms/Input" component={Input} />
+
+# Input
+
+## Props
+
+<Props of={Input} />
+
+## Default
+
+<Preview>
+  <Story name="Default">
+    <Input label="Email" placeholder="Type in your email" />
+  </Story>
+</Preview>
+
+## Outlined
+
+<Preview>
+  <Story name="Outlined">
+    <Input mode="outlined" label="Email" placeholder="Type in your email" />
+  </Story>
+</Preview>

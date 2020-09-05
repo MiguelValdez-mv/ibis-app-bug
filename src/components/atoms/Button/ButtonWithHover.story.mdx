@@ -1,0 +1,22 @@
+import { Meta, Story, Preview, Props } from "@storybook/addon-docs/blocks";
+import { ButtonWithHover } from "./ButtonWithHover";
+
+<Meta title="Components/Atoms/ButtonWithHover" component={ButtonWithHover} />
+
+# ButtonWithHover
+
+## Props
+
+<Props of={ButtonWithHover} />
+
+## Default
+
+<Preview>
+	<Story name="Default">
+		<ButtonWithHover
+			onPress={() => console.log("press button")}
+			messageButton="Button"
+			hoverColor="red"
+		/>
+	</Story>
+</Preview>
